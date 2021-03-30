@@ -1,4 +1,4 @@
-{
+rankall<- function(outcome, num = "best") {
   library(dplyr)
   library(magrittr)
   outcome2 <- read.csv("outcome-of-care-measures.csv",
