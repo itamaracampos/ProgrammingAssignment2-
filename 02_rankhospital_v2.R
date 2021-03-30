@@ -1,3 +1,4 @@
+rankhospital<- function(state, outcome, num = "best")
 {
   outcome1 <- read.csv("outcome-of-care-measures.csv",
                        colClasses = "character")
