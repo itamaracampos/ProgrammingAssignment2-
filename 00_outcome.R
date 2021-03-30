@@ -10,3 +10,4 @@ outcome[, lapply(.SD
                  , main = "Hospital 30-Day Death (Mortality) Rates from Heart Attack"
                  , col="lightblue")
         , .SDcols = (11)]
+
